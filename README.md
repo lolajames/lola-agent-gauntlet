@@ -30,6 +30,7 @@ Scores varied by about 3 points between identical runs, so I treated one run as 
 ## Files
 - `my_strategy.py`: the strategy hooks (image prompts, model choice)
 - `speed_test.py`: runs a puzzle on several models and compares time, tokens and correctness
+- `agent.py`: the Python Simple agent, with streaming off by default (one line changed)
 
 ## Limitations
 Results come from a few practice runs on a shared server. Easy logic puzzles can still run close to the time limit.
